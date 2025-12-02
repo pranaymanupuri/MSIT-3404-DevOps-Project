@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MSIT 3404 Frontend</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎉 Welcome to MSIT 3404 DevOps Project!</h1>
+        <p>This is a containerized frontend application</p>
+        <div class="status">
+            <div class="status-box" id="backend-status">
+                <h3>Backend Status</h3>
+                <p class="status-indicator">Checking...</p>
+            </div>
+            <div class="status-box" id="frontend-status">
+                <h3>Frontend Status</h3>
+                <p class="status-indicator">Running ✅</p>
+            </div>
+        </div>
+        <button onclick="refreshStatus()">Refresh Status</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
